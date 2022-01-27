@@ -75,7 +75,7 @@ dd {
 }
 
 .parallax {
-    background: linear-gradient(rgba(60, 68, 105, 0.45), rgba(60, 68, 105, 0.45)), url("assets/media/collection-newspapers.jpg");
+    background: linear-gradient(rgba(60, 68, 105, 0.45), rgba(60, 68, 105, 0.45)), url("/assets/media/collection-newspapers.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
