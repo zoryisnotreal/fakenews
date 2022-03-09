@@ -1,0 +1,12 @@
+#topnav {
+    background-color: #3E88B8;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font: Roboto;
+}
+
+#topnav:hover {
+    color: #132938;
+    background-color: white;
+}
