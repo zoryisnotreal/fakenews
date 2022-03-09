@@ -4,6 +4,7 @@
     position: absolute;
     color: white;
     font: Roboto;
+    list-style: none;
 }
 
 #topnav:hover {
