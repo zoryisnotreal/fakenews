@@ -1,0 +1,37 @@
+#sectionone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title title" "words image" "remainder remainder";
+}
+
+.title {
+    grid-area: title;
+}
+
+.words {
+    grid-area: words;
+}
+
+.pictureone {
+    grid-area: image;
+    width: 100%;
+}
+
+.remainder {
+    grid-area: remainder;
+}
+
+#sectiontwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title title" "words image" "remainder remainder";
+}
+
+.words2 {
+    grid-area: words;
+}
+
+.picturetwo {
+    grid-area: image;
+    width: 100%;
+}

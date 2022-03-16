@@ -1,0 +1,50 @@
+.mobile {
+    display: none;
+}
+
+.stepone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "step step" "image define";
+}
+
+.steptwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "step step" "image define";
+}
+
+.step {
+    padding: 20px;
+    color: white;
+    background-color: #AD263D;
+    width: 100%;
+    margin-left: 0px;
+    grid-area: step;
+}
+
+.stepthree {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "step step" "image define";
+}
+
+img {
+    grid-area: image;
+}
+
+.define {
+    font-size: 24px;
+    grid-area: define;
+    line-height: 36px;
+}
+
+.stepfour {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "step step" "image define";
+}

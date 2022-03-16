@@ -1,0 +1,17 @@
+#explain {
+    line-height: 1.5em;
+}
+
+.statement {
+    color: #BB263D;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 5em;
+}
+
+#quote {
+    font-size: 24px;
+    padding: 1em;
+    line-height: 1.5em;
+    color: #AD263D;
+}

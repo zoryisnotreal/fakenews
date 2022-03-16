@@ -1,8 +1,50 @@
-.parallax {
-    background-image: url("/../media/collection-newspapers.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    .parallax {
+        background-image: linear-gradient(to right, rgba(70, 75, 128, .5), rgba(70, 75, 128, .5)), url("../media/collection-newspapers.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 10px;
+        margin-left: 1.5em;
+    }
+    
+    .parallax-text {
+        font-size: 20px;
+        text-align: left;
+        width: 50%;
+        margin: auto;
+        padding: 15%;
+        color: white;
+        letter-spacing: 1.5px;
+        line-height: 1.5em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .list h3 {
+        font-weight: bold;
+    }
+    
+    .list {
+        font-size: 20px;
+        color: white;
+        background-color: #4391C4;
+        position: absolute;
+        right: 0;
+        left: 0;
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-top: 3em;
+        padding-bottom: 5em;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .parallax {
+            display: none;
+        }
+        body {
+            margin: 5px;
+        }
+        .
+    }
