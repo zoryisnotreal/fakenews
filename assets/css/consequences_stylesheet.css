@@ -35,3 +35,18 @@
     grid-area: image;
     width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    #sectionone {
+        display: block;
+    }
+    #sectiontwo {
+        display: block;
+    }
+    img {
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

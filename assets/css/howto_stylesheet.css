@@ -4,15 +4,13 @@
 
 .stepone {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-template-columns: 25% 25%;
     grid-template-areas: "step step" "image define";
 }
 
 .steptwo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-template-columns: 25% 25%;
     grid-template-areas: "step step" "image define";
 }
 
@@ -27,8 +25,7 @@
 
 .stepthree {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-template-columns: 25% 25%;
     grid-template-areas: "step step" "image define";
 }
 
@@ -44,7 +41,31 @@ img {
 
 .stepfour {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-template-columns: 25% 25%;
     grid-template-areas: "step step" "image define";
+}
+
+@media screen and (max-width: 600px) {
+    .stepone,
+    .steptwo,
+    .stepthree,
+    .stepfour {
+        display: block;
+    }
+    .define {
+        font-size: 20px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .step {
+        padding-right: 0px;
+    }
 }
